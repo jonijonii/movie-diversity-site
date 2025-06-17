@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "2024년 영화 다양성 분석"
+  navbar:
+    left:
+      - text: "서론"
+        href: intro.qmd
+      - text: "장르별 다양성"
+        href: genre.qmd
+      - text: "감독 성별 분석"
+        href: director.qmd
+      - text: "캐릭터별 다양성"
+        href: character.qmd
+      - text: "결론 및 추천"
+        href: conclusion.qmd
+format:
+  html:
+    toc: true
+    toc-depth: 2
+
+
+
+
