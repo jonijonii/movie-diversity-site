@@ -18,6 +18,7 @@ website:
         href: conclusion.qmd
 format:
   html:
+    theme: simplex
     toc: true
     toc-depth: 2
 
