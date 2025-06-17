@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "2024년 영화 다양성 분석"
@@ -19,7 +20,5 @@ format:
   html:
     toc: true
     toc-depth: 2
-
-
 
 
