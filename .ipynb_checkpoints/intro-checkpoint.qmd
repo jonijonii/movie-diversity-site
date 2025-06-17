@@ -6,22 +6,12 @@ format: html
 
 ## 1. 영화에서의 다양성이란
 
-### 📌 정의
+###  정의
 
 등장인물과 서사가 **성별, 성 정체성, 장애, 연령, 인종 등 다양한 정체성**을 반영하고, 기존 주류 시각에서 벗어난 **다양한 삶의 관점과 이야기를 담는 것**
 
 
-### 📚 다양성의 주요 요소
-
-- **성별**: 여성 주연, 여성 중심 서사  
-- **성적 지향**: LGBTQ+ 등장인물 포함  
-- **인종/민족**: 다문화적 배경의 등장인물  
-- **장애**: 정신적 또는 신체적 장애를 지닌 인물  
-- **연령**: 노년층이 주연이거나 중심 인물인 경우  
-- **비인간 캐릭터**: AI, 동물 등 의인화된 존재 포함  
-
-
-### 🎯 벡델 테스트(Bechdel Test) : 영화나 다른 픽션 작품에서 여성이 얼마나 의미 있게 재현되는지를 측정
+###  벡델 테스트(Bechdel Test)
 
 - 이름을 가진 여성 캐릭터가 두 명 이상 나오는가?
 - 이 여성 캐릭터들이 서로 대화하는가? 
@@ -30,18 +20,18 @@ format: html
 
 ## 2. 데이터 수집
 
- 1) 데이터 출처
+### 데이터 출처
 - TMDB : 24년 개봉 인기 상위 1,000개 영화
 - IMDB : 키워드 추출
 - Bechdeltest.com : 벡델테스트 통과 영화 목록
 - 알라딘 : SF소설 인기 상위 100개
 
- 2)종합 다양성 점수 산정
-- 여성 주연, 성소수자 주연, 장애인 주연, 노령층 주연, 그리고 AI와 동물이 중심적으로 출연한 영화를 선정
+### 종합 다양성 점수 산정  
+- 여성 주연, 성소수자 주연, 장애인 주연, 노령층 주연, 그리고 AI와 동물이 중심적으로 출연한 영화를 선정  
 - 각 영화별로 이 6개 항목에 대해 1점씩 부여하여 종합 다양성 점수를 산출
 
 
 
-## 🎬 3. 2024년 개봉된 영화중 다양성이 반영된 작품의 비율
+## 3. 2024년 개봉된 영화중 다양성이 반영된 작품의 비율
 
 <iframe src='https://flo.uri.sh/visualisation/23754794/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/23754794/?utm_source=embed&utm_campaign=visualisation/23754794' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
