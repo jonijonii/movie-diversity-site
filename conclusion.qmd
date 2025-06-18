@@ -1,18 +1,29 @@
 ---
-title: "결론 및 추천"
+title: "결론"
 format: html
 ---
 
+
 ### 모두의 이야기가 스크린에 보여져야 할 때
 
-- 보이지 않으면 존재하지 않는다  
-- 사회규범과 영화산업구조의 성별 구성
+- 보여지지 않으면 존재하는지 모른다  
+> 여성서사 6.6%, LGBTQ 6.1%, 노령층 5%, 장애인 3.5%  
+- 정체성 외에도 보여줄 수 있는 이야기는 많다.
+- 다른 삶을 이해하고 존중하는 포용성있는 사회규범을 만들어가자.
+
 
 ### 앞으로의 제안
 
-- 여성 감독이 더 많이 나오기를
-- 소외된 계층의 얼굴이 더 많이 보이기를
+- 여성 감독이 더 많이 나오기를...  
+> 여성감독이 다양성 점수가 가장 높지만 영화 제작률은 14.6%
+- 천재가 아닌 신체장애인의 출연  
+- 누구의 할머니, 할아버지가 아닌 주인공으로서의 노령층의 이야기  
+- 우리 속에 평범한 성소수자 등 소외된 계층의 다양한 삶의 이야기가 더 많이 보이기를...  
 
-### 추천 영화
 
-(다양성 영화 6편 + 이미지, 링크)
+> *“The more specific you are, the more universal you can be.”* by Greta Gerwig
+
+
+### 내맘대로 추천 영화 6선
+
+<iframe src='https://flo.uri.sh/visualisation/23824518/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/23824518/?utm_source=embed&utm_campaign=visualisation/23824518' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>

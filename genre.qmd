@@ -3,23 +3,23 @@ title: "장르별 다양성"
 format: html
 ---
 
-## 장르별 다양성 현황
+
 
 <iframe src='https://flo.uri.sh/visualisation/23759456/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/23759456/?utm_source=embed&utm_campaign=visualisation/23759456' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
   
-### 다양성이 높은 장르
+#### 다양성이 높은 장르
 
 -가족물 : 노령층 6.7%, AI 6.7%, 동물 40%  
 -전쟁물 : 벡델테스트 16.7%, 장애 16.7% AI 16.7%  
 -역사물 : 벡델테스트 26.7%, 성소수자 13.3%, AI 6.7%
 
 
-### 벡델테스트가 높게 나온 장르
+###### 벡델테스트가 높게 나온 장르
 
 -판타지 29.4%, 역사물 26.7%, 전쟁물: 16.7%
 
 
-### 다양성이 낮은 장르
+#### 다양성이 낮은 장르
 
 - 액션물 : 15.4%, 다큐멘터리 8.4%

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>서론 – 2024년 영화 다양성 분석</title>
+<title>소개 – 2024년 영화 다양성 분석</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -90,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./intro.html" aria-current="page"> 
-<span class="menu-text">서론</span></a>
+<span class="menu-text">소개</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./genre.html"> 
@@ -98,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./director.html"> 
-<span class="menu-text">감독 성별 분석</span></a>
+<span class="menu-text">감독 성별과 다양성</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./character.html"> 
@@ -106,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./conclusion.html"> 
-<span class="menu-text">결론 및 추천</span></a>
+<span class="menu-text">결론</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -119,23 +119,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul class="collapse">
-  <li><a href="#영화에서의-다양성이란" id="toc-영화에서의-다양성이란" class="nav-link active" data-scroll-target="#영화에서의-다양성이란">1. 영화에서의 다양성이란</a></li>
-  <li><a href="#데이터-수집" id="toc-데이터-수집" class="nav-link" data-scroll-target="#데이터-수집">2. 데이터 수집</a></li>
-  <li><a href="#년-개봉된-영화중-다양성이-반영된-작품의-비율" id="toc-년-개봉된-영화중-다양성이-반영된-작품의-비율" class="nav-link" data-scroll-target="#년-개봉된-영화중-다양성이-반영된-작품의-비율">3. 2024년 개봉된 영화중 다양성이 반영된 작품의 비율</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">서론</h1>
+<h1 class="title">소개</h1>
 </div>
 
 
@@ -152,14 +144,29 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="영화에서의-다양성이란" class="level2">
-<h2 class="anchored" data-anchor-id="영화에서의-다양성이란">1. 영화에서의 다양성이란</h2>
-<section id="정의" class="level3">
-<h3 class="anchored" data-anchor-id="정의">정의</h3>
-<p>등장인물과 서사가 <strong>성별, 성 정체성, 장애, 연령, 인종 등 다양한 정체성</strong>을 반영하고, 기존 주류 시각에서 벗어난 <strong>다양한 삶의 관점과 이야기를 담는 것</strong></p>
+<section id="영화에서의-다양성" class="level3">
+<h3 class="anchored" data-anchor-id="영화에서의-다양성">1. 영화에서의 다양성</h3>
+<section id="영화는-우리-사회-구성원을-얼마나-보여주고-있는가." class="level4">
+<h4 class="anchored" data-anchor-id="영화는-우리-사회-구성원을-얼마나-보여주고-있는가.">영화는 우리 사회 구성원을 얼마나 보여주고 있는가.</h4>
+<ul>
+<li>우리는 다양한 <strong>성별, 인종, 나이, 성 정체성, 장애, 문화</strong> 속에서 살아갑니다.</li>
+<li>그러나 영화에서의 주요 인물은 <strong>특정 집단의 전형적인 모습</strong>으로 접하는 경우가 많습니다.</li>
+<li>2024년에 개봉된 영화들의 <strong>주요인물과 서사를 분석하여 다양성의 현황</strong>을 알아보고자 합니다.</li>
+</ul>
 </section>
-<section id="벡델-테스트bechdel-test" class="level3">
-<h3 class="anchored" data-anchor-id="벡델-테스트bechdel-test">벡델 테스트(Bechdel Test)</h3>
+</section>
+<section id="데이터-수집" class="level3">
+<h3 class="anchored" data-anchor-id="데이터-수집">2. 데이터 수집</h3>
+<section id="데이터-출처" class="level4">
+<h4 class="anchored" data-anchor-id="데이터-출처">데이터 출처</h4>
+<ul>
+<li>TMDB : 24년 개봉 인기 상위 1,000개 영화(ID, 제목, 제작국가, 감독이름, 감독성별, 주연배우, 주연성별, 줄거리)</li>
+<li>IMDB : TMBD ID로 매칭하여 ‘키워드’ 추출</li>
+<li>Bechdeltest.com : TMBD ID로 매칭하여 ‘벡델테스트 점수’ 추출(3점이 통과)</li>
+<li>알라딘 : SF소설 인기 상위 100개 제목, 키워드</li>
+</ul>
+<section id="벡델-테스트bechdel-test" class="level6">
+<h6 class="anchored" data-anchor-id="벡델-테스트bechdel-test">벡델 테스트(Bechdel Test)</h6>
 <ul>
 <li>이름을 가진 여성 캐릭터가 두 명 이상 나오는가?</li>
 <li>이 여성 캐릭터들이 서로 대화하는가?</li>
@@ -167,28 +174,17 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 </section>
-<section id="데이터-수집" class="level2">
-<h2 class="anchored" data-anchor-id="데이터-수집">2. 데이터 수집</h2>
-<section id="데이터-출처" class="level3">
-<h3 class="anchored" data-anchor-id="데이터-출처">데이터 출처</h3>
+<section id="종합-다양성-점수-산정" class="level4">
+<h4 class="anchored" data-anchor-id="종합-다양성-점수-산정">종합 다양성 점수 산정</h4>
 <ul>
-<li>TMDB : 24년 개봉 인기 상위 1,000개 영화</li>
-<li>IMDB : 키워드 추출</li>
-<li>Bechdeltest.com : 벡델테스트 통과 영화 목록</li>
-<li>알라딘 : SF소설 인기 상위 100개</li>
-</ul>
-</section>
-<section id="종합-다양성-점수-산정" class="level3">
-<h3 class="anchored" data-anchor-id="종합-다양성-점수-산정">종합 다양성 점수 산정</h3>
-<ul>
-<li>여성 주연, 성소수자 주연, 장애인 주연, 노령층 주연, 그리고 AI와 동물이 메인으로 등장하는 영화 선정<br>
+<li>여성, 성소수자, 장애인, 노령층, 그리고 AI와 동물이 메인으로 등장하는 영화 선정<br>
 </li>
 <li>각 영화별로 이 6개 항목에 대해 1점씩 부여하여 종합 다양성 점수를 산출</li>
 </ul>
 </section>
 </section>
-<section id="년-개봉된-영화중-다양성이-반영된-작품의-비율" class="level2">
-<h2 class="anchored" data-anchor-id="년-개봉된-영화중-다양성이-반영된-작품의-비율">3. 2024년 개봉된 영화중 다양성이 반영된 작품의 비율</h2>
+<section id="년-개봉된-영화중-다양성이-반영된-작품의-비율" class="level3">
+<h3 class="anchored" data-anchor-id="년-개봉된-영화중-다양성이-반영된-작품의-비율">3. 2024년 개봉된 영화중 다양성이 반영된 작품의 비율</h3>
 <iframe src="https://flo.uri.sh/visualisation/23754794/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation">
 </iframe>
 <div style="width:100%!;margin-top:4px!important;text-align:right!important;">
