@@ -7,7 +7,7 @@ website:
   navbar:
     left:
       - text: "소개"
-        href: intro.qmd
+        href: index.qmd
       - text: "장르별 다양성"
         href: genre.qmd
       - text: "감독 성별과 다양성"

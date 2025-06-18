@@ -1,0 +1,50 @@
+---
+title: "소개"  
+format: html
+---
+
+
+
+
+### 1. 영화에서의 다양성
+
+
+
+
+
+#### 영화는 우리 사회 구성원을 얼마나 보여주고 있는가.
+
+- 우리는 다양한 **성별, 인종, 나이, 성 정체성, 장애, 문화** 속에서 살아갑니다.
+- 그러나 영화에서의 주요 인물은 **특정 집단의 전형적인 모습**으로 접하는 경우가 많습니다.
+- 2024년에 개봉된 영화들의 **주요인물과 서사를 분석하여 다양성의 현황**을 알아보고자 합니다.
+
+
+
+
+### 2. 데이터 수집
+
+#### 데이터 출처
+
+- TMDB : 24년 개봉 1,000개 영화(ID, 제목, 제작국가, 감독이름, 감독성별, 주연배우, 주연성별, 줄거리)
+- IMDB : TMBD ID로 매칭하여 '키워드' 추출
+- Bechdeltest.com : TMBD ID로 매칭하여 '벡델테스트 점수' 추출(3점이 통과)
+- 알라딘 : SF소설 인기 상위 100개 제목, 키워드
+
+######  벡델 테스트(Bechdel Test)
+
+- 이름을 가진 여성 캐릭터가 두 명 이상 나오는가?
+- 이 여성 캐릭터들이 서로 대화하는가? 
+- 이 대화 내용이 남성에 대한 것 이외의 주제인가?
+
+
+#### 종합 다양성 점수 산정
+
+- 여성, 성소수자, 장애인, 노령층, 그리고 AI와 동물이 메인으로 등장하는 영화 선정  
+- 각 영화별로 이 6개 항목에 대해 1점씩 부여하여 종합 다양성 점수를 산출
+
+
+
+
+### 3. 2024년 개봉된 영화중 다양성이 반영된 작품의 비율
+
+<iframe src='https://flo.uri.sh/visualisation/23754794/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/23754794/?utm_source=embed&utm_campaign=visualisation/23754794' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
