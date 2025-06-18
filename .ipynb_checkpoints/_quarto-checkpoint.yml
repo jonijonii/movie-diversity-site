@@ -2,24 +2,22 @@ project:
   type: website
   output-dir: docs
 
-website:
-  title: "2024년 영화 다양성 분석"
-  navbar:
-    left:
-      - text: "소개"
-        href: index.qmd
-      - text: "장르별 다양성"
-        href: genre.qmd
-      - text: "감독 성별과 다양성"
-        href: director.qmd
-      - text: "캐릭터별 다양성"
-        href: character.qmd
-      - text: "결론"
-        href: conclusion.qmd
 format:
   html:
-    theme: simplex
-    toc: true
-    toc-depth: 2
+    theme: simplex     # 🎨 Simplex 테마 적용
+    css: styles.css     # 🧾 사용자 줄간격 CSS 연결
 
-
+website:
+  title: "영화 다양성 분석"
+  navbar:
+    left:
+      - href: index.qmd
+        text: 서론
+      - href: genre.qmd
+        text: 장르별 다양성
+      - href: director.qmd
+        text: 감독 성별과 다양성
+      - href: character.qmd
+        text: 캐릭터별 다양성
+      - href: conclusion.qmd
+        text: 결론

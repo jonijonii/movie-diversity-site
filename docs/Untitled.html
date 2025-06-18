@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>결론 – 영화 다양성 분석</title>
+<title>untitled – 영화 다양성 분석</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -106,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">캐릭터별 다양성</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./conclusion.html" aria-current="page"> 
+    <a class="nav-link" href="./conclusion.html"> 
 <span class="menu-text">결론</span></a>
   </li>  
 </ul>
@@ -122,62 +157,36 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">결론</h1>
+
+
+
+<div id="bd43bd48-e875-499c-a97b-eecba961b439" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>css_code <span class="op">=</span> <span class="st">"""</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="st">body {</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="st">  line-height: 1.8;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="st">  font-size: 1.05rem;</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="st">}</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="st">img {</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="st">  max-width: 100%;</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="st">  height: auto;</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="st">  display: block;</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="st">  margin: 1em auto;</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="st">}</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="st">"""</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">"styles.css"</span>, <span class="st">"w"</span>, encoding<span class="op">=</span><span class="st">"utf-8"</span>) <span class="im">as</span> f:</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    f.write(css_code)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"✅ styles.css 파일 생성 완료"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>✅ styles.css 파일 생성 완료</code></pre>
+</div>
 </div>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="모두의-이야기가-스크린에-보여져야-할-때" class="level3">
-<h3 class="anchored" data-anchor-id="모두의-이야기가-스크린에-보여져야-할-때">모두의 이야기가 스크린에 보여져야 할 때</h3>
-<ul>
-<li>보여지지 않으면 존재하는지 모른다<br>
-&gt; 여성서사 6.6%, LGBTQ 6.1%, 노령층 5%, 장애인 3.5%<br>
-</li>
-<li>정체성 외에도 보여줄 수 있는 이야기는 많다.</li>
-<li>다른 삶을 이해하고 존중하는 포용성있는 사회규범을 만들어가자.</li>
-</ul>
-</section>
-<section id="앞으로의-제안" class="level3">
-<h3 class="anchored" data-anchor-id="앞으로의-제안">앞으로의 제안</h3>
-<ul>
-<li>여성 감독이 더 많이 나오기를…<br>
-&gt; 여성감독이 다양성 점수가 가장 높지만 영화 제작률은 14.6%</li>
-<li>천재가 아닌 신체장애인의 출연, 극복해야 할 대상의 장애가 아닌 삶의 이야기<br>
-</li>
-<li>누구의 할머니, 할아버지가 아닌 주인공으로서의 노령층의 이야기<br>
-</li>
-<li>우리 일상에 평범한 성소수자 등 소외된 계층의 다양한 삶의 이야기가 더 많이 보이기를…</li>
-</ul>
-<blockquote class="blockquote">
-<p><em>“The more specific you are, the more universal you can be.”</em> by Greta Gerwig</p>
-</blockquote>
-</section>
-<section id="내맘대로-추천-영화-6선" class="level3">
-<h3 class="anchored" data-anchor-id="내맘대로-추천-영화-6선">내맘대로 추천 영화 6선</h3>
-<iframe src="https://flo.uri.sh/visualisation/23824518/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation">
-</iframe>
-<div style="width:100%!;margin-top:4px!important;text-align:right!important;">
-<a class="flourish-credit" href="https://public.flourish.studio/visualisation/23824518/?utm_source=embed&amp;utm_campaign=visualisation/23824518" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a>
-</div>
-
-
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

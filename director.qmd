@@ -1,5 +1,5 @@
 ---
-title: "감독 성별과 다양성"
+title: 감독 성별과 다양성
 format: html
 ---
 
