@@ -1,5 +1,5 @@
 ---
-title: 장르별 다양성
+title: 장르와 다양성
 format: html
 ---
 

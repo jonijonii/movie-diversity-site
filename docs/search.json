@@ -4,12 +4,12 @@
     "href": "Untitled.html",
     "title": "영화 다양성 분석",
     "section": "",
-    "text": "css_code = \"\"\"\nbody {\n  line-height: 1.8;\n  font-size: 1.05rem;\n}\n\nimg {\n  max-width: 100%;\n  height: auto;\n  display: block;\n  margin: 1em auto;\n}\n\"\"\"\n\nwith open(\"styles.css\", \"w\", encoding=\"utf-8\") as f:\n    f.write(css_code)\n\nprint(\"✅ styles.css 파일 생성 완료\")\n\n✅ styles.css 파일 생성 완료"
+    "text": "css_code = \"\"\"\nbody {\n  line-height: 2.0;  \n  max-width: 100%;\n  font-size: 1.05rem;  \n  margin: auto;  \n  padding: 1.5rem;\n}\n\nimg {\n  max-width: 100%;\n  height: auto;\n  display: block;\n  margin: 1em auto;\n}\n\"\"\"\n\nwith open(\"styles.css\", \"w\", encoding=\"utf-8\") as f:\n    f.write(css_code)\n\nprint(\"✅ styles.css 파일 생성 완료\")\n\n✅ styles.css 파일 생성 완료"
   },
   {
     "objectID": "genre.html",
     "href": "genre.html",
-    "title": "장르별 다양성",
+    "title": "장르와 다양성",
     "section": "",
     "text": "다양성이 높은 장르\n-가족물 : 노령층 6.7%, AI 6.7%, 동물 40%\n-전쟁물 : 벡델테스트 16.7%, 장애 16.7% AI 16.7%\n-역사물 : 벡델테스트 26.7%, 성소수자 13.3%, AI 6.7%\n\n벡델테스트가 높게 나온 장르\n-판타지 29.4%, 역사물 26.7%, 전쟁물: 16.7%\n\n\n\n다양성이 낮은 장르\n\n액션물 : 15.4%, 다큐멘터리 8.4%"
   },
@@ -23,7 +23,7 @@
   {
     "objectID": "character.html",
     "href": "character.html",
-    "title": "등장인물별 다양성",
+    "title": "등장인물과 다양성",
     "section": "",
     "text": "주요 캐릭터로 보는 다양성 현황\n\n\n\n \n\n\nAI와 관련해서 비교해보는 SF 소설의 키워드"
   },

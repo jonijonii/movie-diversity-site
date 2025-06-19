@@ -14,10 +14,10 @@ website:
       - href: index.qmd
         text: 서론
       - href: genre.qmd
-        text: 장르별 다양성
+        text: 장르와 다양성
       - href: director.qmd
         text: 감독 성별과 다양성
       - href: character.qmd
-        text: 캐릭터별 다양성
+        text: 등장인물과 다양성
       - href: conclusion.qmd
         text: 결론
