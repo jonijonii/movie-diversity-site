@@ -11,8 +11,8 @@ format: html
 
 #### 영화는 우리 사회 구성원을 얼마나 보여주고 있는가
 
-- 우리는 다양한 <span style="color:red; font-weight:bold;">성별</span>, <span style="color:orange; font-weight:bold;">인종</span>, <span style="color:gold; font-weight:bold;">나이</span>, <span style="color:green; font-weight:bold;">성 정체성</span>, <span style="color:blue; font-weight:bold;">장애</span>, <span style="color:purple; font-weight:bold;">문화</span> 속에서 살아간다.   
-- 그러나 영화에서의 주인공은 대부분 <span style="color:blue"><em>특정 집단의 전형적인</em></span> 모습이다.  
+- 우리는 다양한 성별, 인종, 나이, 성 정체성, 장애, 문화 속에서 살아간다.   
+- 그러나 영화에서의 주인공은 대부분 *특정 집단의 전형적인* 모습이다.  
 
 <iframe src='https://flo.uri.sh/visualisation/23862061/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/23862061/?utm_source=embed&utm_campaign=visualisation/23862061' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
@@ -29,4 +29,5 @@ format: html
 - **성소수자**가 중심인물 또는 중심서사로 나오는가 -> 1점  
 - **장애인**이 중심인물 또는 중심서사로 나오는가  -> 1점  
 - **노령층**이 중심인물 또는 중심서사로 나오는가  -> 1점  
+ -> 영화별로 해당 항목의 점수를 합산하여 평균 점수 산출
 
