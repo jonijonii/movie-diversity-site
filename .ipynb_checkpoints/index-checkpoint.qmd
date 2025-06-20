@@ -14,7 +14,7 @@ format: html
 #### 영화는 우리 사회 구성원을 얼마나 보여주고 있는가
 
 - 우리는 다양한 성별, 인종, 나이, 성 정체성, 장애, 문화 속에서 살아간다.   
-- 그러나 영화에서의 주인공은 대부분 *특정 집단의 전형적인* 모습이다.  
+- 그러나 우리가 접하는 영화에서의 중심인물은...   
 
 <iframe src='https://flo.uri.sh/visualisation/23862061/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/23862061/?utm_source=embed&utm_campaign=visualisation/23862061' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
@@ -23,13 +23,13 @@ format: html
 #### 종합 다양성 점수 산정  
 
 - **여성**이 중심인물 또는 중심서사로 나오는가 \rightarrow '벡델테스트 통과' : 1점  
-&emsp;&emsp;<벡델 테스트(Bechdel Test)>  
-&emsp;&emsp;1) 이름을 가진 여성 캐릭터가 두 명 이상 나오는가?  
-&emsp;&emsp;2) 이 여성 캐릭터들이 서로 대화하는가?  
-&emsp;&emsp;3) 이 대화 내용이 남성에 대한 것 이외의 주제인가?
+<벡델 테스트(Bechdel Test)>  
+1) 이름을 가진 여성 캐릭터가 두 명 이상 나오는가?  
+2) 이 여성 캐릭터들이 서로 대화하는가?  
+3) 이 대화 내용이 남성에 대한 것 이외의 주제인가?
 
 - **성소수자**가 중심인물 또는 중심서사로 나오는가 : 1점  
 - **장애인**이 중심인물 또는 중심서사로 나오는가 : 1점  
 - **노령층**이 중심인물 또는 중심서사로 나오는가 : 1점  
- * 영화별로 해당 항목의 점수를 합산하여 평균 점수 산출*
+ *영화별로 해당 항목의 점수를 합산하여 평균 점수 산출*
 
