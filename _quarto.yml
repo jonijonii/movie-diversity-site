@@ -8,7 +8,7 @@ format:
     css: styles.css     # 🧾 사용자 줄간격 CSS 연결
 
 website:
-  title: "영화 다양성 분석"
+  title: "2024년에 나온 영화로 본 영화 속 다양성 분석"
   navbar:
     left:
       - href: index.qmd
