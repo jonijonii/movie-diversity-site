@@ -1,0 +1,24 @@
+---
+title: 데이터 분석
+format: html
+---
+
+### 1. 데이터 수집  
+
+- TMDB : 24년 개봉 1,000개 영화, API 이용(ID, 제목, 제작국가, 감독이름, 감독성별, 주연배우, 주연성별, 줄거리)
+- IMDB : TMBD ID로 매칭하여 '키워드' 추출, Google translate API로 번역
+- Bechdeltest.com : TMBD ID로 매칭하여 '벡델테스트 결과' 추출  
+
+### 2. 데이터 분석 및 시각화 도구  
+
+- Jupiter Notebook, Python, Selenium, Google AI studio, Flourish 등
+
+
+:::{.figure}
+![Classify 결과](images/classify.png){fig-cap="키워드 분류 과정"}
+:::
+
+### 3. 웹 퍼블리싱  
+
+- Quarto, Github  
+

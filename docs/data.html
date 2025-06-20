@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>untitled – 영화 다양성 분석</title>
+<title>데이터 분석 – 영화 다양성 분석</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,41 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -126,19 +91,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">서론</span></a>
+<span class="menu-text">소개</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./genre.html"> 
-<span class="menu-text">장르와 다양성</span></a>
+    <a class="nav-link active" href="./data.html" aria-current="page"> 
+<span class="menu-text">데이터 분석</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./director.html"> 
-<span class="menu-text">감독 성별과 다양성</span></a>
+    <a class="nav-link" href="./diversity.html"> 
+<span class="menu-text">다양성 지표 분석</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./character.html"> 
-<span class="menu-text">등장인물과 다양성</span></a>
+    <a class="nav-link" href="./analysis.html"> 
+<span class="menu-text">원인 분석</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./conclusion.html"> 
@@ -157,39 +122,57 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
 
-
-
-
-<div id="bd43bd48-e875-499c-a97b-eecba961b439" class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>css_code <span class="op">=</span> <span class="st">"""</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="st">body {</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="st">  line-height: 3.0;  </span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="st">  max-width: 100%;</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="st">  font-size: 1.05rem;  </span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="st">  margin: auto;  </span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="st">  padding: 1.5rem;</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="st">}</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="st">img {</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="st">  max-width: 100%;</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="st">  height: auto;</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="st">  display: block;</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="st">  margin: 1em auto;</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="st">}</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="st">"""</span></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">"styles.css"</span>, <span class="st">"w"</span>, encoding<span class="op">=</span><span class="st">"utf-8"</span>) <span class="im">as</span> f:</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    f.write(css_code)</span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"✅ styles.css 파일 생성 완료"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>✅ styles.css 파일 생성 완료</code></pre>
-</div>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">데이터 분석</h1>
 </div>
 
 
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="데이터-수집" class="level3">
+<h3 class="anchored" data-anchor-id="데이터-수집">1. 데이터 수집</h3>
+<ul>
+<li>TMDB : 24년 개봉 1,000개 영화, API 이용(ID, 제목, 제작국가, 감독이름, 감독성별, 주연배우, 주연성별, 줄거리)</li>
+<li>IMDB : TMBD ID로 매칭하여 ‘키워드’ 추출, Google translate API로 번역</li>
+<li>Bechdeltest.com : TMBD ID로 매칭하여 ‘벡델테스트 결과’ 추출</li>
+</ul>
+</section>
+<section id="데이터-분석-및-시각화-도구" class="level3">
+<h3 class="anchored" data-anchor-id="데이터-분석-및-시각화-도구">2. 데이터 분석 및 시각화 도구</h3>
+<ul>
+<li>Jupiter Notebook, Python, Selenium, Google AI studio, Flourish 등</li>
+</ul>
+<div class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/classify.png" class="img-fluid figure-img"></p>
+<figcaption>Classify 결과</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="웹-퍼블리싱" class="level3">
+<h3 class="anchored" data-anchor-id="웹-퍼블리싱">3. 웹 퍼블리싱</h3>
+<ul>
+<li>Quarto, Github</li>
+</ul>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

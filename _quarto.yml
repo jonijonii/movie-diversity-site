@@ -12,12 +12,12 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: 서론
-      - href: genre.qmd
-        text: 장르와 다양성
-      - href: director.qmd
-        text: 감독 성별과 다양성
-      - href: character.qmd
-        text: 등장인물과 다양성
+        text: 소개
+      - href: data.qmd
+        text: 데이터 분석
+      - href: diversity.qmd
+        text: 다양성 지표 분석
+      - href: analysis.qmd
+        text: 원인 분석
       - href: conclusion.qmd
         text: 결론
