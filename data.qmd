@@ -15,7 +15,7 @@ format: html
 
 
 :::{.figure}
-![Classify 결과](images/classify.png){fig-cap="키워드 분류 과정"}
+![영화 '줄거리'와 '소개' 키워드를 중심으로 다양성 항목 분류 과정](images/classify.png){fig-cap="키워드 분류 과정"}
 :::
 
 ### 3. 웹 퍼블리싱  

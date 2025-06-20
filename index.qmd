@@ -21,10 +21,10 @@ format: html
 #### 종합 다양성 점수 산정  
 
 - **여성**이 중심인물 또는 중심서사로 나오는가 -> '벡델테스트 통과' : 1점  
-&emsp;&emsp;&emsp;&emsp;<< 벡델 테스트(Bechdel Test)  
+&emsp;&emsp;&emsp;&emsp;<벡델 테스트(Bechdel Test)>  
 &emsp;&emsp;&emsp;&emsp;1) 이름을 가진 여성 캐릭터가 두 명 이상 나오는가?  
 &emsp;&emsp;&emsp;&emsp;2) 이 여성 캐릭터들이 서로 대화하는가?  
-&emsp;&emsp;&emsp;&emsp;3) 이 대화 내용이 남성에 대한 것 이외의 주제인가?>>
+&emsp;&emsp;&emsp;&emsp;3) 이 대화 내용이 남성에 대한 것 이외의 주제인가?
 
 - **성소수자**가 중심인물 또는 중심서사로 나오는가 -> 1점  
 - **장애인**이 중심인물 또는 중심서사로 나오는가  -> 1점  
